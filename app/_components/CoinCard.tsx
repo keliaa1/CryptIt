@@ -1,4 +1,6 @@
 const CoinCard = () => {
+
+
     return (
         <div>
             coin
