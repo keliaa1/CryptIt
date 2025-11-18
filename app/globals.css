@@ -3,6 +3,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+/* colors being used green: #00ff88 */
+/* black: #050505 */
+/* red: #b9361f */
+/* subtext: #8b919c */
+/* text: #ffffff */
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
