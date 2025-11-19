@@ -18,13 +18,15 @@ export default async function Page() {
   }
 
   return (
+    <div className="w-full min-h-screen background">
     <div className="min-h-screen p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Crypto Price Tracker</h1>
+      <h1 className="text-3xl font-bold mb-4 highlight">Crypto Price Tracker</h1>
       <p className="text-gray-400 mb-6">
         Live cryptocurrency prices fetched from CoinGecko.
       </p>
 
       <CoinsClient initialCoins={coins} initialError={error} />
+    </div>
     </div>
   );
 }
