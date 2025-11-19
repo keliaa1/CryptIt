@@ -1,6 +1,7 @@
 import CoinCard from "./_components/CoinCard";
 import { Coin } from "@/types/coin";
 import CoinsClient from "./_components/CoinsClient";
+import Header from "./_components/Header";
 
 export default async function Page() {
   const API =
@@ -19,6 +20,7 @@ export default async function Page() {
 
   return (
     <div className="w-full min-h-screen background">
+      <Header />
     <div className="min-h-screen p-6 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 highlight">Crypto Price Tracker</h1>
       <p className="text-gray-400 mb-6">
